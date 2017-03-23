@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color:#f8dff0;
+            background:url("https://s-media-cache-ak0.pinimg.com/originals/4d/6c/6f/4d6c6f9860576d2f102999e573129469.jpg")
+            no-repeat top center;
+            }
+        div {
+             display : block;
+            }
+        .sidebar {
+             opacity:0.7;
+             position: fixed;
+             width: 20%;
+             height: 400px;
+             margin-bottom:5%;
+             background: #ecc2e6;
+            }
+        .content {
+             opacity:0.6;
+             position:static;
+             top:15%;
+             margin-left: 22%;
+             margin-bottom:5%;
+             height: 400px;
+             width: auto;
+             background: #f8eef0;
+             }
+        .header {
+            opacity:0.9;
+            position: fixed;
+            margin-left: 1%;
+            }
+         #side {
+            font-size:18px;
+            margin-left:6%;
+            }
+        ul {
+            list-style-type: none;
+            margin-top: 10%;
+            padding: 10%;
+            width: 80%;
+            }
+        li a {
+            display: block;
+            color: black;
+            padding: 8px 16px;
+            text-decoration:none;
+            font-size:20px;
+            }
+        li a.active {
+            background-color:#f496c5;
+            color:white;
+            font-style: italic;
+            }
+        li a:hover:not(.active){
+            background-color: white;
+            color: #f496c5;
+            font-style: italic;
+            }
+        </style>
+
+    <div class="header" id="header">
+        <h3> News Page </h3>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="sidebar" id="sidebar">
+        <ul>
+          <li><a class="active" href="default.asp">Home</a></li>
+          <li><a href="news.asp">News</a></li>
+          <li><a href="contact.asp">Contact</a></li>
+          <li><a href="about.asp">About</a></li>
+        </ul>
+        <br>
+        <br>
+    </div>
+     <div class="content">
+     </div>
+
+</body>
+</html>
+
+
